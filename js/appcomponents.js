@@ -105,7 +105,7 @@ function DialogCtrlInfo ($mdDialog) {
                     
     map.fitBounds(getOptions.bbox);                  
                 
-        document.getElementById("hmPM10").disabled = false;
+    //    document.getElementById("hmPM10").disabled = false;
         document.getElementById("hmPM2.5").disabled = false;
         document.getElementById("hmtemp").disabled = false;
         document.getElementById("hmhumi").disabled = false;
@@ -267,7 +267,7 @@ function DialogCtrlInfo ($mdDialog) {
                 
     if (elementPM.length != 0){
         
-        document.getElementById("hmPM10").disabled = false;
+   //     document.getElementById("hmPM10").disabled = false;
         document.getElementById("hmPM2.5").disabled = false;
         document.getElementById("hmtemp").disabled = true;
         document.getElementById("hmhumi").disabled = true;
@@ -285,7 +285,7 @@ function DialogCtrlInfo ($mdDialog) {
                 console.log(texte);
                         
     }else{
-        document.getElementById("hmPM10").disabled = true;
+     //   document.getElementById("hmPM10").disabled = true;
         document.getElementById("hmPM2.5").disabled = true;
     };
         
@@ -427,7 +427,7 @@ function DialogCtrlInfo ($mdDialog) {
                 
     if (elementPM.length != 0){
         
-        document.getElementById("hmPM10").disabled = false;
+     //   document.getElementById("hmPM10").disabled = false;
         document.getElementById("hmPM2.5").disabled = false;
         document.getElementById("hmtemp").disabled = true;
         document.getElementById("hmhumi").disabled = true;
