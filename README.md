@@ -1,4 +1,5 @@
 #LuftDatenWebApp
+#adapted to Brussels - bruxsellair requests
 
 A webapp to visualize the data of the http://luftdaten.info project at the Open Knowledge Lab Stuttgart, Germany.
 
