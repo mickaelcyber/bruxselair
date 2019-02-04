@@ -15,7 +15,7 @@ L.HexbinLayer = L.Layer.extend({
 			return d.latitude
 		},
 		value: function (d) {
-            if (selector == "hmPM10"){return d3.mean(d, (o) => o.o.data.PM10)}
+          //  if (selector == "hmPM10"){return d3.mean(d, (o) => o.o.data.PM10)}
             if (selector == "hmPM2.5"){return d3.mean(d, (o) => o.o.data.PM25)} 
             if (selector == "hmtemp"){return d3.mean(d, (o) => o.o.data.Temp)} 
             if (selector == "hmhumi"){return d3.mean(d, (o) => o.o.data.Humi)} 
